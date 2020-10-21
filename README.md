@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #NiftyNotification 
 
 effects for android notifications.base on ([Crouton][1])
@@ -100,3 +101,6 @@ limitations under the License.
 
 [1]: https://github.com/keyboardsurfer/Crouton
 [2]: https://raw.githubusercontent.com/sd6352051/NiftyNotification/master/screenshot/ss.gif
+=======
+# dennism-notification-effects-android-studio
+>>>>>>> 1f347ef6c1c65994ca81912fb903e7fc078aeba1
