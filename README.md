@@ -45,7 +45,8 @@ Download Android Studio (http://developer.android.com/sdk/index.html)
 
 # ScreenShot
 
-![Image][2]
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
 # Usage
 ``` java
