@@ -1,10 +1,47 @@
 # dennism-notification-effects-android-studio
 
-effects for android notifications.base on ([Crouton][1])
 
+A fast way to get started with the Ancroid Notification Effects.
+
+## How to setup and run the application 
+.Clone the repo on your local machine
+
+.Copy the project files into your android studio  project directory.
+
+.Open the project.
+
+.Run on android phone or android emulator
+
+# TOC
+
+  * [Requirements](#requirements)
+  * [Android Studio](#android-studio)
+    * [Download Android Studio](#download-android-studio)
+    * [Open the project](#open-the-project)
+    * [Run the app](#run-the-app)
+    * [Troubleshooting](#troubleshooting)
+
+# Requirements
+
+Java Development Kit (JDK) [Download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+Android SDK [Download](http://developer.android.com/sdk/index.html)
 [![Android Arsenal](http://img.shields.io/badge/%20%20%20Android%20%20Arsenal%20%20%20-%20%20%20NiftyNotification%20%20%20-blue.svg)](http://android-arsenal.com/details/1/888)
 [![Build Status](https://api.travis-ci.org/sd6352051/NiftyNotification.svg?branch=master)](https://travis-ci.org/sd6352051/NiftyNotification)
 [![JitPack Maven](https://img.shields.io/github/tag/sd6352051/NiftyNotification.svg?label=JitPack%20Maven)](https://jitpack.io/#sd6352051/NiftyNotification)
+
+# Android Studio
+
+## Download Android Studio
+Download Android Studio (http://developer.android.com/sdk/index.html)
+
+## Open the project
+  1. On the welcome screen, select "Open an existing Android Studio project" or if you have a project open, choose "File->Open...""
+  2. Navigate to the checked out project
+  3. Press "Ok"
+
+## Run the app
+  1. Ensure your phone is in plugged in, developer mode enabled and screen unlocked
+  2. Press the green arrow, or choose Run>Run
 
 # ScreenShot
 
@@ -30,51 +67,6 @@ effects for android notifications.base on ([Crouton][1])
 
 </RelativeLayout>
 ```
-
-# Configuration
-
-``` java
-Configuration cfg=new Configuration.Builder()
-      .setAnimDuration(700)
-      .setDispalyDuration(1500)
-      .setBackgroundColor("#FFBDC3C7")
-      .setTextColor("#FF444444")
-      .setIconBackgroundColor("#FFFFFFFF")
-      .setTextPadding(5)                      //dp
-      .setViewHeight(48)                      //dp
-      .setTextLines(2)                        //You had better use setViewHeight and setTextLines together
-      .setTextGravity(Gravity.CENTER)         //only text def  Gravity.CENTER,contain icon Gravity.CENTER_VERTICAL
-      .build();
-NiftyNotificationView.build(this,msg, effect,R.id.mLyout,cfg)
-      .setIcon(R.drawable.lion)               //remove this line ,only text
-      .setOnClickListener(new View.OnClickListener() {
-      @Override
-      public void onClick(View view) {
-      //add your code
-      }
-      })
-      .show();                               //  show(boolean) allow duplicates   or showSticky() sticky notification,you can call removeSticky() method close it
-```
-
-# Install
-
-You can install using Gradle from [JitPack](https://jitpack.io/#sd6352051/NiftyNotification). Add this to your build.gradle file:
-
-```gradle
-	repositories {
-	    maven { url "https://jitpack.io" }
-	}
-	
-	dependencies {
-	    compile 'com.github.sd6352051:NiftyNotification:1.2'
-	}
-```
-
-Or copy this into your `libs` directory.
--   [`NineOldAndroid-2.4.0`](https://github.com/downloads/JakeWharton/NineOldAndroids/nineoldandroids-2.4.0.jar)
-
--   [`NiftyNotification-1.2`](https://github.com/sd6352051/NiftyNotification/blob/master/releases/niftynotification-1.2.jar?raw=true)
-
 
 # Effects
 `Flip`, `Jelly`, `Scale`, `SlideIn`, `SlideOnTop`, `Standard`, `ThumbSlider`
