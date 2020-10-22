@@ -20,14 +20,14 @@ A fast way to get started with the Ancroid Notification Effects.
     * [Open the project](#open-the-project)
     * [Run the app](#run-the-app)
     * [Troubleshooting](#troubleshooting)
+    * [Screenshot](#screenshot)
+    * [Usage](#usage)
+    * [Effects](#effects)
 
 # Requirements
 
 Java Development Kit (JDK) [Download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 Android SDK [Download](http://developer.android.com/sdk/index.html)
-[![Android Arsenal](http://img.shields.io/badge/%20%20%20Android%20%20Arsenal%20%20%20-%20%20%20NiftyNotification%20%20%20-blue.svg)](http://android-arsenal.com/details/1/888)
-[![Build Status](https://api.travis-ci.org/sd6352051/NiftyNotification.svg?branch=master)](https://travis-ci.org/sd6352051/NiftyNotification)
-[![JitPack Maven](https://img.shields.io/github/tag/sd6352051/NiftyNotification.svg?label=JitPack%20Maven)](https://jitpack.io/#sd6352051/NiftyNotification)
 
 # Android Studio
 
@@ -46,7 +46,6 @@ Download Android Studio (http://developer.android.com/sdk/index.html)
 # ScreenShot
 
 ![Image][2]
-
 
 # Usage
 ``` java
@@ -71,5 +70,3 @@ Download Android Studio (http://developer.android.com/sdk/index.html)
 # Effects
 `Flip`, `Jelly`, `Scale`, `SlideIn`, `SlideOnTop`, `Standard`, `ThumbSlider`
 
-
-[1]: https://github.com/keyboardsurfer/Crouton
