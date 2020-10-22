@@ -1,7 +1,6 @@
 # dennism-notification-effects-android-studio
 
-
-A fast way to get started with the Ancroid Notification Effects.
+A fast way to get started with the Android Notification Effects.
 
 ## How to setup and run the application 
 .Clone the repo on your local machine
@@ -20,7 +19,6 @@ A fast way to get started with the Ancroid Notification Effects.
     * [Open the project](#open-the-project)
     * [Run the app](#run-the-app)
     * [Troubleshooting](#troubleshooting)
-    * [Screenshot](#screenshot)
     * [Usage](#usage)
     * [Effects](#effects)
 
@@ -42,11 +40,6 @@ Download Android Studio (http://developer.android.com/sdk/index.html)
 ## Run the app
   1. Ensure your phone is in plugged in, developer mode enabled and screen unlocked
   2. Press the green arrow, or choose Run>Run
-
-# ScreenShot
-
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
 
 # Usage
 ``` java
